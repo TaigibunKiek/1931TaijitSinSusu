@@ -1,5 +1,6 @@
 (function () {
   // TODO edit
+  const baseUrl = '/scannedImgViewer';
   const dataFolderPath = '/chuliau';
   const dataNamePrefix = '/1931TaijitSinSusu_Page_';
   const dataNameNumberCount = 4;
@@ -13,12 +14,12 @@
     var numberText = (i).toString().padStart(dataNameNumberCount, "0");
     imgSources.push({
       type: 'image',
-      url: `..${dataFolderPath}${dataNamePrefix}${numberText}${dataNameSuffix}`
+      url: `..${baseUrl}${dataFolderPath}${dataNamePrefix}${numberText}${dataNameSuffix}`
     })
   }
   const viewer = OpenSeadragon({
     id: 'viewer-block',
-    prefixUrl: `../assets/images/openseadragon/`,
+    prefixUrl: `..${baseUrl}/assets/images/openseadragon/`,
     tileSources: imgSources,
     sequenceMode: true,
     preload: true,
