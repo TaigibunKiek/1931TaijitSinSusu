@@ -1,10 +1,10 @@
 (function () {
   // TODO edit
   const dataFolderPath = '/chuliau';
-  const dataNamePrefix = '/TJTST1_';
-  const dataNameNumberCount = 3;
+  const dataNamePrefix = '/1931TaijitSinSusu_Page_';
+  const dataNameNumberCount = 4;
   const dataNameSuffix = '.jpg';
-  const lastPageNumber = 12;
+  const lastPageNumber = 1385;
 
   let imgSources = [];
   const imgSourcesMin = 1;
