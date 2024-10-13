@@ -1,6 +1,6 @@
 (function () {
   // TODO edit
-  const baseUrl = '/scannedImgViewer';
+  const baseUrl = '/1931TaijitSinSusu';
   const dataFolderPath = '/chuliau';
   const dataNamePrefix = '/1931TaijitSinSusu_Page_';
   const dataNameNumberCount = 4;
